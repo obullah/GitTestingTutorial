@@ -31,6 +31,7 @@ function buildAdfDescription(text) {
  * Resolve "assignee" text (email, display name, or accountId) to a Jira accountId.
  * - If it's already an accountId, we just use it.
  * - Otherwise, we search Jira users with ?query=<value> and grab the first match.
+ * hkhjkjhoihiohhngutfrdesrdtfyguihiiugfdszxfcghvjbn
  */
 async function resolveAssigneeAccountId(jiraClient, assigneeRaw) {
   if (!assigneeRaw) return null;
